@@ -22,7 +22,7 @@ func main() {
 	defer db.Close()
 
 	// Migrate the schema
-	db.AutoMigrate(&	`*ZSA		`Awxzx{})
+	db.AutoMigrate(&Product{})
 
 	// Create
 	db.Create(&Product{Code: "L1212", Price: 1000})
